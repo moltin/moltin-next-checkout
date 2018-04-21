@@ -2,7 +2,7 @@
 
 > ⚡️ Next.js demo for one-click moltin purchasing
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/ynnoj/moltin-next-checkout&env=MOLTIN_CLIENT_ID&env=STRIPE_KEY&env=MICRO_ENDPOINT_URL)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/moltin-examples/moltin-next-checkout&env=MOLTIN_CLIENT_ID&env=STRIPE_KEY&env=MICRO_ENDPOINT_URL)
 
 Next.js app for one-click purchases with [moltin](https://moltin.com) and [Stripe](https://stripe.com).
 
@@ -14,7 +14,7 @@ Check out the [demo](https://moltin-next-checkout.now.sh/) here.
 
 `npm run dev`
 
-Create a `.env` file at the project root with your moltin `client_id`, Stripe public test key and your [moltin-micro-checkout](https://github.com/ynnoj/moltin-micro-checkout) deployment URL.
+Create a `.env` file at the project root with your moltin `client_id`, Stripe public test key and your [moltin-micro-checkout](https://github.com/moltin-examples/moltin-micro-checkout) deployment URL.
 
 ```
 MOLTIN_CLIENT_ID=
